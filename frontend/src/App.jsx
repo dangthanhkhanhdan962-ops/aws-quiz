@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import { generateClient } from 'aws-amplify/data'
-import outputs from '../amplify_outputs.json'
+import outputs from './amplify_outputs.json'
 
 const PROXY_URL =
   outputs.custom?.anthropicProxyUrl ||
