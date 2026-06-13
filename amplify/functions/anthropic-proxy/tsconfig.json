@@ -1,0 +1,6 @@
+{
+  "extends": "../../../amplify/tsconfig.json",
+  "compilerOptions": {
+    "types": ["node"]
+  }
+}
